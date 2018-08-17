@@ -14,7 +14,7 @@
 > + 上传库, **git push origin master**
 
 ## 删除文件
-> + git rm --cached -r useless
+> + git rm --cached -r useless_file
 > + git commit -m "remove directory from remote repository"
 > + git push
 
