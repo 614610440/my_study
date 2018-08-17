@@ -13,6 +13,10 @@
 > + 将库同步到本地库， **git pull origin master**
 > + 上传库, **git push origin master**
 
+## 删除文件
+> + git rm --cached -r useless
+> + git commit -m "remove directory from remote repository"
+> + git push
 
 ## 错误解决:
 
