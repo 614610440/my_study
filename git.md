@@ -21,7 +21,12 @@
 ## 错误解决:
 
 #### fatal: 远程 origin 已经存在。
-> **git remote rm origin**
+> **git remote rm origin**  
+
+#### error: commit is not possible because you have unmerged files. local文件冲突，
+> 1. **git add -u**,**git commit**,解决冲突文件
+> 2. 放弃本地文件修改：**git reset --hard FETCH_HEAD**,（可能会删掉一些新建文件，先备份再复原）。
 
 ##  参考：
 > + [Github 简明教程](http://www.runoob.com/w3cnote/git-guide.html)
+
