@@ -27,6 +27,9 @@
 > 1. **git add -u**,**git commit**,解决冲突文件
 > 2. 放弃本地文件修改：**git reset --hard FETCH_HEAD**,（可能会删掉一些新建文件，先备份再复原）。
 
+#### You are not currently on a branch.
+> + [解决方案](https://blog.csdn.net/xinguan1267/article/details/39028789)
+
 ##  参考：
 > + [Github 简明教程](http://www.runoob.com/w3cnote/git-guide.html)
 
