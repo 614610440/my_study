@@ -30,8 +30,8 @@
 #### You are not currently on a branch.
 > + [解决方案](https://blog.csdn.net/xinguan1267/article/details/39028789)
 
-#### 目录忽略( .gitignore)  
-{    {{
+#### 目录忽略( .gitignore)
+
 #               表示此为注释,将被Git忽略  
 *.a             表示忽略所有 .a 结尾的文件  
 !lib.a          表示但lib.a除外  
@@ -86,4 +86,5 @@ fd1/*
 
 ##  参考：
 > + [Github 简明教程](http://www.runoob.com/w3cnote/git-guide.html)
+> + [Git忽略提交规则](https://www.cnblogs.com/kevingrace/p/5690241.html)
 
