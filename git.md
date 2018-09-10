@@ -31,7 +31,7 @@
 > + [解决方案](https://blog.csdn.net/xinguan1267/article/details/39028789)
 
 #### 目录忽略( .gitignore)
-
+```
 #               表示此为注释,将被Git忽略  
 *.a             表示忽略所有 .a 结尾的文件  
 !lib.a          表示但lib.a除外  
@@ -82,7 +82,7 @@ fd1/*
 !/fw/bin/  
 !/fw/sf/  
 说明：忽略全部内容，但是不忽略 .gitignore 文件、根目录下的 /fw/bin/ 和 /fw/sf/ 目录；注意要先对bin/的父目录使用!规则，使其不被排除。  
-}}    }
+```
 
 ##  参考：
 > + [Github 简明教程](http://www.runoob.com/w3cnote/git-guide.html)
