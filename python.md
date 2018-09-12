@@ -18,4 +18,4 @@
 > 对数据库进行更新 **pyenv rehash**  
 > 查看当前已安装版本 **pyenv versions**  其中 * 是系统自带版本  
 > 设置全局的python版本 **pyenv global 3.4.3**  
-> 
+> [参考](http://www.cnblogs.com/ningvsban/p/4384995.html)
