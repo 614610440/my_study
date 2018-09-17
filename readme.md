@@ -5,3 +5,6 @@
 > 2. [配置zbar](zbar.md)
 > 3. [OpenCV](opencv.md)
 > 4. [python](python.md)
+
+#### 有用代码
+> 1. 随时响应键盘输入[keyboard.cpp](cpp/keyboard.cpp)
