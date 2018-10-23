@@ -11,7 +11,7 @@
 #### 有用代码
 > 1. 随时响应键盘输入[keyboard.cpp](cpp/keyboard.cpp)
 
-方法一：
+方法一：  
 sudo add-apt-repository ppa:nm-l2tp/network-manager-l2tp  
 sudo apt-get update  
 sudo apt-get install network-manager-l2tp
