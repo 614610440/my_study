@@ -20,11 +20,11 @@ https://github.com/nm-l2tp/network-manager-l2tp.git
 sudo apt install git intltool libtool network-manager-dev libnm-util-dev libnm-glib-dev libnm-glib-vpn-dev libnm-gtk-dev libnm-dev libnma-dev ppp-dev libdbus-glib-1-dev libsecret-1-dev libgtk-3-dev libglib2.0-dev xl2tpd strongswan
  
 #编译安装
-cd network-manager-l2tp
-./autogen.sh
-./configure --disable-static --prefix=/usr --sysconfdir=/etc --libdir=/usr/lib/x86_64-linux-gnu --libexecdir=/usr/lib/NetworkManager --localstatedir=/var --with-pppd-plugin-dir=/usr/lib/pppd/2.4.7
-make
-sudo make install
+cd network-manager-l2tp  
+./autogen.sh  
+./configure --disable-static --prefix=/usr --sysconfdir=/etc --libdir=/usr/lib/x86_64-linux-gnu --libexecdir=/usr/lib/NetworkManager --localstatedir=/var --with-pppd-plugin-dir=/usr/lib/pppd/2.4.7  
+make  
+sudo make install  
  
 #设置vpn
 菜单-设置-网络连接-增加-第二层隧道协议L2TP-新建-VPN选项卡
