@@ -43,3 +43,4 @@ sudo make install
 在上网方式选择中点击VPN连接-WIT VPN
 输入上网帐号密码
  
+Error: Initial GPU selected (`--number_gpu_start`) + number GPUs to use (`--number_gpu`) must be lower or equal than the total number of GPUs in your machine (1 + 1 vs. 1).
