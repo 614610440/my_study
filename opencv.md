@@ -5,7 +5,12 @@
 > 3. **make**  
 > 4. **sudo make install**  
 > 5. sudo gedit .bashrc二选一
-> export PKG_CONFIG_PATH=/home/wxx/lib/opencv-3.4.1/lib/pkgconfig
-> export LD_LIBRARY_PATH=/home/wxx/lib/opencv-3.4.1/lib
-> #PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/home/wxx/lib/opencv-3.4.1/lib/pkgconfig
-> #export PKG_CONFIG_PATH
+> export PKG_CONFIG_PATH=/home/wxx/lib/opencv-3.4.1/lib/pkgconfig  
+> export LD_LIBRARY_PATH=/home/wxx/lib/opencv-3.4.1/lib   
+> #PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/home/wxx/lib/opencv-3.4.1/lib/pkgconfig  
+> #export PKG_CONFIG_PATH  
+
+安装完成后通过查看 opencv 版本验证是否安装成功：
+
+pkg-config --modversion opencv  
+
