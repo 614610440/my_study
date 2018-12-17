@@ -44,3 +44,7 @@ sudo make install
 输入上网帐号密码
  
 Error: Initial GPU selected (`--number_gpu_start`) + number GPUs to use (`--number_gpu`) must be lower or equal than the total number of GPUs in your machine (1 + 1 vs. 1).
+
+
+#### caffe使用python3.5
+cmake -D python_version=3 ..
