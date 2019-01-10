@@ -7,6 +7,7 @@
 > 4. [python](python.md)
 > 5. [ROS](ros/ros.md)
 > 6. [C++](c++.md)
+> 7. [ROS2](ros2/ros2_study.md)
 
 #### 有用代码
 > 1. 随时响应键盘输入[keyboard.cpp](cpp/keyboard.cpp)
