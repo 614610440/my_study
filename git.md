@@ -20,9 +20,9 @@
 > + 上传库, **git push origin master**
 
 ## Tags
-> git tag version 1.0
-> git tag -s version1.0 -m 'first version'
-> git push origin v0.1.0
+> 创建tag **git tag version_1.0** 或者 **git tag -s version_1.0 -m 'first version'**
+> **git push origin version_1.0**
+> 删除tag **git push origin --delete tag \<tagname>**
 
 ## 删除文件
 > + git rm --cached -r useless_file
