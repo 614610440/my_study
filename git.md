@@ -1,6 +1,7 @@
 # git教程
 > [配置Git](#配置Git)
 > [使用](#使用)
+> [查看修改历史](#查看修改历史)
 > [Tags](#Tags)
 > [删除文件](#删除文件)
 > [错误解决](#错误解决)
@@ -18,6 +19,9 @@
 > + 编辑更改信息， **git commit -m "commit"**
 > + 将库同步到本地库， **git pull origin master**
 > + 上传库, **git push origin master**
+
+## 查看修改历史
+> 将github.com改为github.githistory.xyz
 
 ## Tags
 > 创建tag **git tag version_1.0** 或者 **git tag -s version_1.0 -m 'first version'**
