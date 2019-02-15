@@ -1,4 +1,10 @@
 # git教程
+> [配置Git](#配置Git)
+> [使用](#使用)
+> [Tags](#Tags)
+> [删除文件](#删除文件)
+> [错误解决](#错误解决)
+> [目录忽略](#目录忽略)
 
 ## 配置Git
 > + **ssh-keygen -t rsa -C "614610440@qq.com"**， 一路默认回车。
@@ -12,6 +18,11 @@
 > + 编辑更改信息， **git commit -m "commit"**
 > + 将库同步到本地库， **git pull origin master**
 > + 上传库, **git push origin master**
+
+## Tags
+> git tag version 1.0
+> git tag -s version1.0 -m 'first version'
+> git push origin v0.1.0
 
 ## 删除文件
 > + git rm --cached -r useless_file
@@ -30,7 +41,7 @@
 #### You are not currently on a branch.
 > + [解决方案](https://blog.csdn.net/xinguan1267/article/details/39028789)
 
-#### 目录忽略( .gitignore)
+## 目录忽略( .gitignore)
 ```
 #               表示此为注释,将被Git忽略  
 *.a             表示忽略所有 .a 结尾的文件  
