@@ -21,3 +21,6 @@ pip install zbar
 #### 命令行解析图片
 > 1. 安装zbar-tools, **sudo apt install zbar-tools**
 > 2. **zbarimg *.jpg**
+
+#### 测试代码
+> [zbar_test.cpp](cpp/zbar_test.cpp)  
