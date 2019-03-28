@@ -31,3 +31,6 @@ sudo apt-get install ffmpeg
 
 pkg-config --modversion opencv  
 
+## QT 配置Opencv
+> sudo sh -c 'echo "/home/wxx/lib/Opencv3.4.0/lib" > /etc/ld.so.conf.d/opencv.conf'
+

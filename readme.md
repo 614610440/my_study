@@ -50,3 +50,5 @@ Error: Initial GPU selected (`--number_gpu_start`) + number GPUs to use (`--numb
 
 #### caffe使用python3.5
 cmake -D python_version=3 ..
+
+#### Demo
