@@ -9,6 +9,7 @@
 > 6. [C++](c++.md)
 > 7. [ROS2](ros2/ros2_study.md)
 > 8. [常用命令](useful_command.py)
+> 9. [GO语言学习](go/go.md)
 
 #### 有用代码
 > 1. 随时响应键盘输入[keyboard.cpp](cpp/keyboard.cpp)
