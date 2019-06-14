@@ -48,7 +48,32 @@ git tag -d <tagname>                     #删除本地tag
 
 ## Branch
 ```shell
+# 创建branch
+git branch your_branch
 
+# 将分支切换到your_branch
+git checkout your_branch 
+
+# 查看所有分支列表，包括本地和远程
+git branch -a
+
+#　删除your_branch分支，如果在分支中有一些未merge的提交，那么会删除分支失败，此时可以使用 git branch -D your_branch：强制删除your_branch分支，
+git branch -d your_branch
+
+#　给分支重命名
+git branch -m oldName newName
+```
+
+## checkout
+```shell
+# 放弃单个文件的修改
+git checkout filename 
+
+# 放弃当前目录下的修改
+git checkout
+
+# 将分支切换到your_branch
+git checkout your_branch 
 ```
 
 ## 删除文件
