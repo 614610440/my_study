@@ -60,6 +60,9 @@ git branch -a
 #　删除your_branch分支，如果在分支中有一些未merge的提交，那么会删除分支失败，此时可以使用 git branch -D your_branch：强制删除your_branch分支，
 git branch -d your_branch
 
+# 删除远程分支
+git push origin -d BranchName
+
 #　给分支重命名
 git branch -m oldName newName
 ```
