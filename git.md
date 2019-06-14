@@ -8,46 +8,75 @@
 > [目录忽略](#目录忽略)  
 
 ## 配置Git
-> + **ssh-keygen -t rsa -C "614610440@qq.com"**， 一路默认回车。  
-> + 进入~/.ssh文件夹， 打开id_rsa.pub,复制里面的key, 回到github, 进入Account Settings, 填写SSH keys  
-> + **ssh -T git@github.com** 验证是否连接成功  
-> + **git config --global user.name "wxx"**,  **git config --global user.email "614610440@qq.com"**,  设置用户名和邮箱   
-> + 进入本地库(my_study), **git init**初始化库, **git remote add origin  git@github.com:614610440/my_study.git**, 用户名和库名。  
+```shell
+ssh-keygen -t rsa -C "614610440@qq.com" # 一路默认回车。  
+
+# 进入~/.ssh文件夹， 
+# 打开id_rsa.pub,复制里面的key, 
+# 回到github, 进入Account Settings, 填写SSH keys  
+
+ssh -T git@github.com # 验证是否连接成功  
+
+# 设置用户名和邮箱  
+git config --global user.name "wxx"
+git config --global user.email "614610440@qq.com"  
+
+# 进入本地库(my_study), 
+git init # 初始化库
+git remote add origin
+git@github.com:614610440/my_study.git  #用户名和库名。  
+```
 
 ## 使用
-> + 添加要上传的文件， **git add filename**  
-> + 编辑更改信息， **git commit -m "commit"**  
-> + 将库同步到本地库， **git pull origin master**  
-> + 上传库, **git push origin master**  
+```shell
+git add filename        # 添加要上传的文件
+git commit -m "commit"  # 编辑更改信息
+git pull origin master  # 将库同步到本地库
+git push origin master  # 上传库
+```
 
 ## 查看修改历史
 > 将github.com改为github.githistory.xyz  
 
 ## Tags
-> 创建tag **git tag version_1.0** 或者 **git tag -a version_1.0 -m 'first version'**  
-> **git push origin version_1.0**  
-> 删除远程tag **git push origin --delete tag <tagname>**  
-> 删除本地tag **git tag -d <tagname>**  
+```shell
+git tag -a version_1.0 -m 'first version' # 创建tag
+git push origin version_1.0
+git push origin --delete tag <tagname>   # 删除远程tag
+git tag -d <tagname>                     #删除本地tag
+```
+
+## Branch
+```shell
+
+```
 
 ## 删除文件
-> + git rm --cached -r useless_file  
-> + git commit -m "remove directory from remote repository"  
-> + git push  
+```shell
+git rm --cached -r useless_file  
+git commit -m "remove directory from remote repository"  
+git push  
+```
 
 ## 错误解决:
 
 #### fatal: 远程 origin 已经存在。
-> **git remote rm origin**    
+```shell
+git remote rm origin  
+```
 
 #### error: commit is not possible because you have unmerged files. local文件冲突，
-> 1. **git add -u**,**git commit**,解决冲突文件  
-> 2. 放弃本地文件修改：**git reset --hard FETCH_HEAD**,（可能会删掉一些新建文件，先备份再复原）。  
+```shell
+git add -u
+git commit #解决冲突文件  
+git reset --hard FETCH_HEAD #（可能会删掉一些新建文件，先备份再复原）。  
+```
 
 #### You are not currently on a branch.  
 > + [解决方案](https://blog.csdn.net/xinguan1267/article/details/39028789)  
 
 ## 目录忽略( .gitignore)
-```
+```txt
 #               表示此为注释,将被Git忽略  
 *.a             表示忽略所有 .a 结尾的文件  
 !lib.a          表示但lib.a除外  
