@@ -6,7 +6,7 @@
 > 3. [OpenCV](opencv.md)
 > 4. [python](python.md)
 > 5. [ROS](ros/ros.md)
-> 6. [C++](c++.md)ssss
+> 6. [C++](c++.md)
 > 7. [ROS2](ros2/ros2_study.md)
 > 8. [常用命令](useful_command.py)
 > 9. [GO语言学习](go/go.md)
