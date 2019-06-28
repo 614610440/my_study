@@ -63,3 +63,8 @@ cmake -D python_version=3 ..
 ```
 
 #### Demo
+
+#### 常用网址
+```html
+http://shumeipai.nxez.com/2017/10/20/raspberry-pi-use-gitlab-to-build-professional-git-services.html
+```
