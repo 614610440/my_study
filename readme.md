@@ -26,3 +26,12 @@
 ```shell
 cmake -D python_version=3 ..
 ```
+
+#### 常用网址
+```html
+http://shumeipai.nxez.com/2017/10/20/raspberry-pi-use-gitlab-to-build-professional-git-services.html
+```
+
+#### 激光相机学习
+> [视觉激光雷达信息融合与联合标定](https://blog.csdn.net/weixin_35695879/article/details/86666784)  
+> [使用Autoware实践激光雷达与摄像机组合标定](https://blog.csdn.net/AdamShan/article/details/81670732)  
