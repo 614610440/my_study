@@ -4,6 +4,7 @@
 > 1. [tensorflow](tensorflow/README.md)  
 > 2. [redis](Redis/README.md)  
 > 3. [计算机网络](Net/README.md)  
+> 4. [高并发](other/HighConcurrency.md)  
 
 #### 学习笔记
 > 1. [git教程](git.md)  
