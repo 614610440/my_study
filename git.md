@@ -23,8 +23,7 @@ git config --global user.email "614610440@qq.com"
 
 # 进入本地库(my_study), 
 git init # 初始化库
-git remote add origin
-git@github.com:614610440/my_study.git  #用户名和库名。  
+git remote add origin git@github.com:614610440/my_study.git  #用户名和库名。  
 ```
 
 ## 使用
