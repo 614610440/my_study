@@ -17,6 +17,9 @@
 > 8. [GO语言学习](go/go.md)  
 > 9. [protobuf](protobuf/readme.md)
 
+#### 实用笔记
+> 1.[ubantu](ubuntu/readme.md)
+
 #### 实用工具
 > 1. [学校VPN](School/vpn.md)  
 
