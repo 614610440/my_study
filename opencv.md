@@ -48,13 +48,13 @@ sudo sh -c 'echo "/home/wxx/lib/opencv-3.4.1/lib" > /etc/ld.so.conf.d/opencv.con
 pkg-config --modversion opencv 
 
 ## 安装cuda版本(需要先装cuda)
-cmake -D CMAKE_BUILD_TYPE=RELEASE -D WITH_TBB=ON -D WITH_V4L=ON -D WITH_CUDA=ON -D ENABLE_FAST_MATH=1 -D CUDA_FAST_MATH=1 -D CUDA_NVCC_FLAGS="-D_FORCE_INLINES" -D WITH_CUBLAS=1 -D WITH_NVCUVID=OFF -D CMAKE_INSTALL_PREFIX=/home/wxx/lib/OpenCV3.1.1-gpu ..
+cmake -D CMAKE_BUILD_TYPE=RELEASE -D WITH_TBB=ON -D WITH_V4L=ON -D WITH_CUDA=ON -D ENABLE_FAST_MATH=1 -D CUDA_FAST_MATH=1 -D CUDA_NVCC_FLAGS="-D_FORCE_INLINES" -D WITH_CUBLAS=1 -D WITH_NVCUVID=OFF -D OPENCV_DNN_CUDA=ON -D CMAKE_INSTALL_PREFIX=/home/wxx/lib/OpenCV3.1.1-gpu ..
 ```
 
 ## 安装Contrib
 ```
-## 下载对应版本Contrib添加参数
- -D OPENCV_EXTRA_MODULES_PATH=…/…/opencv_contrib/modules …
+## 下载对应版本Contrib添加路径参数
+ -D OPENCV_EXTRA_MODULES_PATH=…/…/opencv_contrib/modules
 ```
 
 ## 错误及解决方案

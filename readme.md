@@ -22,6 +22,7 @@
 
 #### 实用工具
 > 1. [学校VPN](School/vpn.md)  
+> 2.[vscode](vscode/README.md)
 
 #### 有用代码
 > 1. 随时响应键盘输入[keyboard.cpp](cpp/keyboard.cpp)  
