@@ -5,6 +5,9 @@
 > 2. [redis](Redis/README.md)  
 > 3. [计算机网络](Net/README.md)  
 > 4. [高并发](other/HighConcurrency.md)  
+> 5. [hadoop]
+> 6. [docker]
+> 7. [k8s]
 
 #### 学习笔记
 > 1. [git教程](git.md)  
